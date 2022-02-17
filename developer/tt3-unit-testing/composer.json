@@ -11,6 +11,6 @@
     "require": {},
     "scripts": {
         "test": "@php ./vendor/phpunit/phpunit/phpunit ./test",
-        "run": "@php ./example.php"
+        "example": "@php ./example.php"
     }
 }

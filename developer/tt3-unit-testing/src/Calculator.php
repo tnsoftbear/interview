@@ -69,7 +69,7 @@ class Calculator
         }
 
         if ($this->randRate) {
-            $randAmount = random_int(0, 10) * 10;
+            $randAmount = random_int(1, 10) * 10;
             if ($randAmount >= $this->randRate) {
                 return new Result($randAmount, Result::OK_BY_RAND);
             }
