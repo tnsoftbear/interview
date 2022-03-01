@@ -2,7 +2,7 @@
 
 ## Task
 
-Find task with unit tests in [tt2-fraction-assembler.php](tt2-fraction-assembler.php).
+Find class draft with unit tests in [tt2-fraction-assembler.php](tt2-fraction-assembler.php). Run `php tt2-fraction-assembler.php` to execute testing data sets.
 
 Complete `FractionAssembler::assemble()` logic.  
 FYI: Sample implementation of FractionAssembler class is simple - it takes 100 lines, it uses 5 native php functions, no complicated logic.
@@ -15,7 +15,9 @@ For instance time left, file size output. Possible result examples:
 * 5d 10h 30m 45s
 * 5Gb 10Mb 30Kb 45B
 
-It is configurable to trim zero values from left and right sides. And perform final trimming of separation characters.
+It must be configurable to trim zero values from left and right sides. It should be able to perform final trimming of separation characters.
+
+You could follow the [link](https://tehplayground.com/kipdAIuVyyVEujWq) to find the same task for coding and executing its tests.
 
 ## Clarification
 
