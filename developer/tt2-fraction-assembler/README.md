@@ -31,6 +31,5 @@ Since we want to make logic universal, we want it to be possible to define sever
 I.e. should our function trim zero values from the left or from the right sides, or it shouldn't. Implement 2 boolean options for this.
 Since we allow to trim zero elements from both sides, we may need to remove redundant separation characters, like commas, colons, etc. Implement an option for this too.
 
-See, this task is not only about correct implementation, but you also need to think how to make code simple and neat. Think about class structure, naming for elements of logic, code style, phpDoc annotations, proper comments, options you choose.
+See, this task is not only about correct implementation, but you also need to think how to make code simple and neat. Think about class structure, methods and variables naming, code style, phpDoc annotations, proper comments.  
 Don't worry about error handling much, we suppose, that function consumer provides correct inputs. But you may assert and check vital invariant.
-You are free in choosing other business requirements for your implementation, that you think may be important to consider else. For instance, another configuration options.
